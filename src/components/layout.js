@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
         <div className="flex flex-col justify-between min-h-screen">
             <div>
                 <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-                <div className="container mx-auto">
+                <div className="container mx-auto my-12">
                     <main>{children}</main>
 
                 </div>
